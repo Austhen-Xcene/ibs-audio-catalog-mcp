@@ -1,5 +1,6 @@
 {
   "name": "ibs-audio-catalog-mcp",
+  "mcpName": "io.github.austhen-xcene/ibs-audio-catalog-mcp",
   "version": "1.0.0",
   "description": "MCP server for the IBS Áudio premium audio catalog — search products, fetch specs, find authorized dealers across Brazil.",
   "type": "module",
@@ -24,7 +25,11 @@
     "70v",
     "amplifier",
     "multiroom",
-    "brazil"
+    "brazil",
+    "brazilian",
+    "b2b",
+    "commercial-audio",
+    "claude"
   ],
   "author": "IBS Áudio <smart@smarthomecontrol.com.br>",
   "license": "MIT",
