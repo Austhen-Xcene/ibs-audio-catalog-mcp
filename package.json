@@ -1,0 +1,45 @@
+{
+  "name": "ibs-audio-catalog-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the IBS Áudio premium audio catalog — search products, fetch specs, find authorized dealers across Brazil.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "ibs-audio-catalog-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ibs-audio",
+    "audio",
+    "catalog",
+    "70v",
+    "amplifier",
+    "multiroom",
+    "brazil"
+  ],
+  "author": "IBS Áudio <smart@smarthomecontrol.com.br>",
+  "license": "MIT",
+  "homepage": "https://github.com/Austhen-Xcene/ibs-audio-catalog-mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austhen-Xcene/ibs-audio-catalog-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Austhen-Xcene/ibs-audio-catalog-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
